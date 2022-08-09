@@ -1,0 +1,15 @@
+connector:
+  name: harness-docker
+  identifier: harnessdocker
+  description: ""
+  orgIdentifier: default
+  projectIdentifier: Default_Project_1659620200840
+  type: DockerRegistry
+  spec:
+    dockerRegistryUrl: https://registry.hub.docker.com/v2/
+    providerType: DockerHub
+    auth:
+      type: UsernamePassword
+      spec:
+        username: arvind9981@gmail.com
+        passwordRef: dockersecret
