@@ -1,8 +1,4 @@
-on: 
-  push:
-    branches:
-      - test
-  
+on: push
 
 jobs:
   soos_dast_baseline_analysis:
